@@ -1,0 +1,71 @@
+$header-height: 70px;
+$logo-height: 48px;
+$items-top-margin:  ( $header-height - $logo-height )/2;
+
+
+.header {
+    width: 100%;
+    height: $header-height;
+    background-color: rgb(0, 102, 255);
+    //vertical-align: center;
+    position: absolute;
+    min-width: 850px;
+}
+.logo {
+    float: left;
+    //position: absolute;
+    height: $logo-height;
+    //align-items: center;
+    //vertical-align: middle;
+    margin-top: $items-top-margin;
+    margin-left: 12px;
+}
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-stretch: wider;
+    font-variant-caps: petite-caps;
+    float: left;
+    height: $logo-height;
+    margin-top: $items-top-margin;
+    padding-top: 6px;
+    margin-left: 10px;
+    text-shadow: black;
+    text-shadow: 5px
+}
+.navigation {
+    float:right;
+    height: $header-height;
+    margin-top: $header-height/2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    //background-color: #f1f1f1;
+    //height: $header-height;
+  }
+
+  li {
+      float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 26, 170);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: rgba(0, 2, 122, 0.932);
+    color: white;
+  }
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
