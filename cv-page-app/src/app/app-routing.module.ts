@@ -5,7 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [{
   path: 'home',
   loadChildren: './modules/home/home.module#HomeModule'
-}];
+},
+{
+  path: 'experiance',
+  loadChildren: './modules/experiance/experiance.module#ExperianceModule'
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
