@@ -1,0 +1,66 @@
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    left: 0;
+    background-color: rgb(82, 110, 201);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 16px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0,.4);
+  }
+ /* 
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+ 
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+*/ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    //background-color: #f1f1f1;
+    //height: $header-height;
+  }
+
+  li {
+      //float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(214, 221, 243);
+    text-shadow: 2px 2px 4px #052f77;
+    padding: 8px 32px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: rgb(46, 72, 158);
+    color: white;
+  }
+
+  li a:active {
+    background-color: rgb(65, 86, 155);
+    color: white;
+  }
