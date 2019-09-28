@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { ButtonModule } from 'primeng/button';
 import { RouterModule } from '@angular/router';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
+    SidenavComponent,
   ],
   imports: [
     CommonModule,
@@ -16,6 +18,7 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     HeaderComponent,
+    SidenavComponent,
   ]
 })
 export class CoreModule { }
