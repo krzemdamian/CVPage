@@ -1,0 +1,15 @@
+<table>
+    <tr *ngFor="let skill of skills">
+        <td>
+            <div class="skill-name">{{skill.name}}</div>
+        </td>
+        <td>
+            <div class="skill-rating">
+                <p-rating
+                 iconOnClass="pi pi-circle-on" 
+                 iconOffClass="pi pi-circle-off"
+                 [cancel]="false" [readonly]="true" [(ngModel)]="skill.rating"></p-rating>
+            </div>
+        </td>
+    </tr>
+<table></table>

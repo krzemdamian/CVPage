@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { EducationRoutingModule } from './education-routing.module';
 import { EducationComponent } from './education/education.component';
+import { CardModule } from 'primeng/card';
 
 
 @NgModule({
   declarations: [EducationComponent],
   imports: [
     CommonModule,
-    EducationRoutingModule
+    EducationRoutingModule,
+    CardModule,
   ]
 })
 export class EducationModule { }

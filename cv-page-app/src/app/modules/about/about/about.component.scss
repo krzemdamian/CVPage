@@ -1,0 +1,18 @@
+$optimal-height: 250px;
+
+.container {
+    //width: 200px;
+    height: $optimal-height;
+    float: left;
+    margin-right: 16px;
+}
+
+/* resize images */
+.container img {
+    width: auto;
+    height: 100%;
+}
+
+.content {
+    min-height: $optimal-height;
+}
