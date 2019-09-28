@@ -5,7 +5,10 @@
         </td>
         <td>
             <div class="skill-rating">
-                <p-rating [cancel]="false" [readonly]="true" [(ngModel)]="skill.rating"></p-rating>
+                <p-rating
+                 iconOnClass="pi pi-circle-on" 
+                 iconOffClass="pi pi-circle-off"
+                 [cancel]="false" [readonly]="true" [(ngModel)]="skill.rating"></p-rating>
             </div>
         </td>
     </tr>

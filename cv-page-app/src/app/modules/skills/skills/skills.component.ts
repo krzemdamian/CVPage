@@ -13,9 +13,9 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit() {
     this.skills = [
-      { name: 'C#', rating: 3 },
+      { name: 'C#', rating: 4 },
       { name: '.Net Framework', rating: 3 },
-      { name: 'Unit Tests', rating: 2 },
+      { name: 'Unit Tests', rating: 3 },
       { name: 'Visual Studio', rating: 3},
       { name: 'Solid Principals', rating: 3 },
       { name: 'Design Patterns', rating: 2 },
