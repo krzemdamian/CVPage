@@ -11,6 +11,7 @@ $items-top-margin:  ( $header-height - $logo-height )/2;
     position: fixed;
     min-width: 850px;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,.4);
+    z-index: 2;
 }
 .logo {
     float: left;
