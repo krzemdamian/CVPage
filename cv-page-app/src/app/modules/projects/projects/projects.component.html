@@ -1,3 +1,10 @@
+<p-card header="CV Page">
+    <p>Angular SPA Website about me. The purpose of this page is to present myself as a software developer.
+        MVP verison of this site lacks backend on this stage of project. Next it should be enriched by backend server.
+        In future data should be pulled out through backend from database through ORM like Entity Framework.</p><br>
+    <a href="https://github.com/krzemdamian/CVPage">https://github.com/krzemdamian/CVPage</a>
+</p-card><br>
+
 <p-card header="Revit Addin: DKTools">
     <p>DKTools is an C# add-in for Revit enabling execution of Python scripts.
         Extension provide framework alowing Python scripts registration in form of buttons
@@ -7,14 +14,23 @@
         Including: view manipulation, managing element selection, anotations,
         element host verification, worksharing control.
         Implemented Windows Forms GUI can be used as an output console
-        for any new Python script command development.</p>
+        for any new Python script command development.</p><br>
     <a href="https://github.com/krzemdamian/DKTools">https://github.com/krzemdamian/DKTools</a>
 </p-card><br/>
 
-<p-card header="Python script to organize photos">
-    <p>https://github.com/krzemdamian/PhotoOrganizer/blob/master/organize_photos_CLI.py</p>
-    <a href="https://github.com/krzemdamian/PhotoOrganizer/blob/master/organize_photos_CLI.py">
-        https://github.com/krzemdamian/PhotoOrganizer/blob/master/organize_photos_CLI.py
+<p-card header="Python console application (script) to organize photos">
+    <p>This script helps organizing photos and videos.
+    It reads Exif data from phots and videos and moves files accordingly to date and month.
+    Application asks user what is the input and output folder path.
+    Script searches all files inside input folder and moves it into 'Output/year/month/'.
+    It works recursively and searches all subfolders inside input folder.
+    In case that exif data is not available file is moved into folder for manual segregation.
+    Files inside manual segregation folder are not moved directly into that folder
+    but it moved with all it's upper root folders. It is done not to loose data in which folder
+    it resides. In many cases folder names are significant.
+    </p><br>
+    <a href="https://github.com/krzemdamian/PhotoOrganizer">
+        https://github.com/krzemdamian/PhotoOrganizer
     </a>
 </p-card><br/>
 
@@ -26,7 +42,7 @@
             <li>Upload predefined paper formats.</li>
             <li>Define frames conating drawing names and styles.</li>
             <li>Batch print all predefined frames and elements contained in those frames.</li>
-        </ul>
+        </ul><br>
         <a href="http://kopalnia-baldos.pl/">http://kopalnia-baldos.pl/</a>
 </p-card><br>
 
@@ -35,6 +51,6 @@
         <p>It was maind using predefined template. Work come down to editing CSS styles,
             embeding external javascript elements such as gallery and google maps.
         </p>
-        <p>It involved preparing host environment and deployment.</p>
+        <p>It involved preparing host environment and deployment.</p><br>
         <a href="http://kopalnia-baldos.pl/">http://kopalnia-baldos.pl/</a>
     </p-card>
