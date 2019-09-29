@@ -7,7 +7,6 @@ $items-top-margin:  ( $header-height - $logo-height )/2;
     width: 100%;
     height: $header-height;
     background-color: rgb(82, 110, 201);
-    //vertical-align: center;
     position: fixed;
     min-width: 850px;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,.4);
@@ -15,15 +14,11 @@ $items-top-margin:  ( $header-height - $logo-height )/2;
 }
 .logo {
     float: left;
-    //position: absolute;
     height: $logo-height;
-    //align-items: center;
-    //vertical-align: middle;
     margin-top: $items-top-margin;
     margin-left: 12px;
 }
 .name {
-    //font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     font-size: 30px;
     font-stretch: wider;
@@ -52,8 +47,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    //background-color: #f1f1f1;
-    //height: $header-height;
   }
 
   li {
@@ -69,7 +62,6 @@ ul {
     font-weight: bold;
   }
   
-  /* Change the link color on hover */
   li a:hover {
     background-color: rgb(46, 72, 158);
     color: white;
