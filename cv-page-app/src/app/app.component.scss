@@ -8,12 +8,9 @@
 $base-margin: 16px;
 .content-container {
     margin: $base-margin;
-    //border-radius: 15px;
-    //border:0px solid black;
     box-shadow: 3px 3px 6px rgba(0, 0, 0,.4);
     padding: 10px;
     background-color: rgb(244, 246, 255);
     transition: margin-left .5s;
     margin-left: $base-margin + 220px;
-    //padding: 16px;
 }
